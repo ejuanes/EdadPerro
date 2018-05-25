@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C33CBB20B8891000B38620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C33CBA20B8891000B38620 /* AppDelegate.swift */; };
+		09C33CBD20B8891000B38620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C33CBC20B8891000B38620 /* ViewController.swift */; };
+		09C33CC020B8891000B38620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C33CBE20B8891000B38620 /* Main.storyboard */; };
+		09C33CC220B8891000B38620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C33CC120B8891000B38620 /* Assets.xcassets */; };
+		09C33CC520B8891000B38620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C33CC320B8891000B38620 /* LaunchScreen.storyboard */; };
+		09C33CD020B8891000B38620 /* EdadPerroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C33CCF20B8891000B38620 /* EdadPerroTests.swift */; };
+		09C33CDB20B8891000B38620 /* EdadPerroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C33CDA20B8891000B38620 /* EdadPerroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C33CCC20B8891000B38620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C33CAF20B8891000B38620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C33CB620B8891000B38620;
+			remoteInfo = EdadPerro;
+		};
+		09C33CD720B8891000B38620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09C33CAF20B8891000B38620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09C33CB620B8891000B38620;
+			remoteInfo = EdadPerro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C33CB720B8891000B38620 /* EdadPerro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdadPerro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C33CBA20B8891000B38620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09C33CBC20B8891000B38620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09C33CBF20B8891000B38620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09C33CC120B8891000B38620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09C33CC420B8891000B38620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09C33CC620B8891000B38620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C33CCB20B8891000B38620 /* EdadPerroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdadPerroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C33CCF20B8891000B38620 /* EdadPerroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdadPerroTests.swift; sourceTree = "<group>"; };
+		09C33CD120B8891000B38620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C33CD620B8891000B38620 /* EdadPerroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdadPerroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09C33CDA20B8891000B38620 /* EdadPerroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdadPerroUITests.swift; sourceTree = "<group>"; };
+		09C33CDC20B8891000B38620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C33CB420B8891000B38620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CC820B8891000B38620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CD320B8891000B38620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C33CAE20B8891000B38620 = {
+			isa = PBXGroup;
+			children = (
+				09C33CB920B8891000B38620 /* EdadPerro */,
+				09C33CCE20B8891000B38620 /* EdadPerroTests */,
+				09C33CD920B8891000B38620 /* EdadPerroUITests */,
+				09C33CB820B8891000B38620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09C33CB820B8891000B38620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09C33CB720B8891000B38620 /* EdadPerro.app */,
+				09C33CCB20B8891000B38620 /* EdadPerroTests.xctest */,
+				09C33CD620B8891000B38620 /* EdadPerroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09C33CB920B8891000B38620 /* EdadPerro */ = {
+			isa = PBXGroup;
+			children = (
+				09C33CBA20B8891000B38620 /* AppDelegate.swift */,
+				09C33CBC20B8891000B38620 /* ViewController.swift */,
+				09C33CBE20B8891000B38620 /* Main.storyboard */,
+				09C33CC120B8891000B38620 /* Assets.xcassets */,
+				09C33CC320B8891000B38620 /* LaunchScreen.storyboard */,
+				09C33CC620B8891000B38620 /* Info.plist */,
+			);
+			path = EdadPerro;
+			sourceTree = "<group>";
+		};
+		09C33CCE20B8891000B38620 /* EdadPerroTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C33CCF20B8891000B38620 /* EdadPerroTests.swift */,
+				09C33CD120B8891000B38620 /* Info.plist */,
+			);
+			path = EdadPerroTests;
+			sourceTree = "<group>";
+		};
+		09C33CD920B8891000B38620 /* EdadPerroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09C33CDA20B8891000B38620 /* EdadPerroUITests.swift */,
+				09C33CDC20B8891000B38620 /* Info.plist */,
+			);
+			path = EdadPerroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09C33CB620B8891000B38620 /* EdadPerro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C33CDF20B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerro" */;
+			buildPhases = (
+				09C33CB320B8891000B38620 /* Sources */,
+				09C33CB420B8891000B38620 /* Frameworks */,
+				09C33CB520B8891000B38620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdadPerro;
+			productName = EdadPerro;
+			productReference = 09C33CB720B8891000B38620 /* EdadPerro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09C33CCA20B8891000B38620 /* EdadPerroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C33CE220B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerroTests" */;
+			buildPhases = (
+				09C33CC720B8891000B38620 /* Sources */,
+				09C33CC820B8891000B38620 /* Frameworks */,
+				09C33CC920B8891000B38620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C33CCD20B8891000B38620 /* PBXTargetDependency */,
+			);
+			name = EdadPerroTests;
+			productName = EdadPerroTests;
+			productReference = 09C33CCB20B8891000B38620 /* EdadPerroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09C33CD520B8891000B38620 /* EdadPerroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09C33CE520B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerroUITests" */;
+			buildPhases = (
+				09C33CD220B8891000B38620 /* Sources */,
+				09C33CD320B8891000B38620 /* Frameworks */,
+				09C33CD420B8891000B38620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09C33CD820B8891000B38620 /* PBXTargetDependency */,
+			);
+			name = EdadPerroUITests;
+			productName = EdadPerroUITests;
+			productReference = 09C33CD620B8891000B38620 /* EdadPerroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09C33CAF20B8891000B38620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CICE;
+				TargetAttributes = {
+					09C33CB620B8891000B38620 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					09C33CCA20B8891000B38620 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09C33CB620B8891000B38620;
+					};
+					09C33CD520B8891000B38620 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09C33CB620B8891000B38620;
+					};
+				};
+			};
+			buildConfigurationList = 09C33CB220B8891000B38620 /* Build configuration list for PBXProject "EdadPerro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09C33CAE20B8891000B38620;
+			productRefGroup = 09C33CB820B8891000B38620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09C33CB620B8891000B38620 /* EdadPerro */,
+				09C33CCA20B8891000B38620 /* EdadPerroTests */,
+				09C33CD520B8891000B38620 /* EdadPerroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C33CB520B8891000B38620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C33CC520B8891000B38620 /* LaunchScreen.storyboard in Resources */,
+				09C33CC220B8891000B38620 /* Assets.xcassets in Resources */,
+				09C33CC020B8891000B38620 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CC920B8891000B38620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CD420B8891000B38620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09C33CB320B8891000B38620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C33CBD20B8891000B38620 /* ViewController.swift in Sources */,
+				09C33CBB20B8891000B38620 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CC720B8891000B38620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C33CD020B8891000B38620 /* EdadPerroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09C33CD220B8891000B38620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C33CDB20B8891000B38620 /* EdadPerroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09C33CCD20B8891000B38620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C33CB620B8891000B38620 /* EdadPerro */;
+			targetProxy = 09C33CCC20B8891000B38620 /* PBXContainerItemProxy */;
+		};
+		09C33CD820B8891000B38620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09C33CB620B8891000B38620 /* EdadPerro */;
+			targetProxy = 09C33CD720B8891000B38620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09C33CBE20B8891000B38620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C33CBF20B8891000B38620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09C33CC320B8891000B38620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09C33CC420B8891000B38620 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09C33CDD20B8891000B38620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09C33CDE20B8891000B38620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09C33CE020B8891000B38620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09C33CE120B8891000B38620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09C33CE320B8891000B38620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdadPerro.app/EdadPerro";
+			};
+			name = Debug;
+		};
+		09C33CE420B8891000B38620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EdadPerro.app/EdadPerro";
+			};
+			name = Release;
+		};
+		09C33CE620B8891000B38620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdadPerro;
+			};
+			name = Debug;
+		};
+		09C33CE720B8891000B38620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EdadPerroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.CICE.EJG.EdadPerroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EdadPerro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09C33CB220B8891000B38620 /* Build configuration list for PBXProject "EdadPerro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C33CDD20B8891000B38620 /* Debug */,
+				09C33CDE20B8891000B38620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C33CDF20B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C33CE020B8891000B38620 /* Debug */,
+				09C33CE120B8891000B38620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C33CE220B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C33CE320B8891000B38620 /* Debug */,
+				09C33CE420B8891000B38620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09C33CE520B8891000B38620 /* Build configuration list for PBXNativeTarget "EdadPerroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09C33CE620B8891000B38620 /* Debug */,
+				09C33CE720B8891000B38620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09C33CAF20B8891000B38620 /* Project object */;
+}
