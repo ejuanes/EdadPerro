@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func button1(_ sender: Any) {
+        if textEntrada.text != nil{
+        let edad = 7 * Int(textEntrada.text!)!
+        }
+    }
+    @IBOutlet weak var labelResultado: UILabel!
+    @IBOutlet weak var textEntrada: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hola")
