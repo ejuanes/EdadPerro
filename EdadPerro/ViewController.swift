@@ -15,15 +15,16 @@ class ViewController: UIViewController {
         let edad = 7 * Int(textEntrada.text!)!
         }
     }
+    
+    
     @IBOutlet weak var labelResultado: UILabel!
     @IBOutlet weak var textEntrada: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Hola")
         // Do any additional setup after loading the view, typically from a nib.
-        print("Hola ke ase")
-        print("Modificado desde Xcode")
+         
+
     }
 
     override func didReceiveMemoryWarning() {
